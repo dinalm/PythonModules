@@ -1,4 +1,4 @@
-#Exercise Lab Part - 02
+#Exercises Lab Part - 02
 import math
 import random
 
