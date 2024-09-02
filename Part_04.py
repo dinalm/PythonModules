@@ -1,6 +1,6 @@
 #Exercises Lab Part - 04
 import random
-
+import math
 #--------------------------Exercise 01--------------------------------#
 i = 1
 while i <= 1000:
@@ -81,12 +81,11 @@ while i < N:
     if x**2 + y**2 < 1:
         n += 1
 
-    # Increment the loop counter
     i += 1
 
 pi_approx = 4 * n / N
 
-print(f'Approximation of pi is: {pi_approx}')
+print(f'Approximation of pi is: {pi_approx}, the difference with math pi is: {math.pi - pi_approx}' )
 
 
 
