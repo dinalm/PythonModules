@@ -38,7 +38,7 @@ for name in names:
 
 airports = {"DAAG":"Alger", "DAAT":"Tamanrasset", "EBBR":"Brussels", "FMCH":"Moroni"}
 while True:
-    print("1. Enter a New airport\n2. Fetch airport information\n3. Quit")
+    print("1. Enter a New airport \n2. Fetch airport information \n3. Quit")
     choice = input("Choose an option (1-3): ")
 
     if choice == "1":
