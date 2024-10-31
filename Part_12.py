@@ -12,8 +12,8 @@ def get_chuck_norris_joke():
         joke_data = response.json()
         print(joke_data["value"])
 
-    except Exception as err:
-        print(f"An error occurred: {err}")
+    except requests.exceptions.RequestException as err:
+        print(f"Request error occurred: {err}")
 
 if __name__ == "__main__":
     get_chuck_norris_joke()
@@ -39,8 +39,8 @@ def get_weather():
         print(f"Condition: {description.capitalize()}")
         print(f"Temperature: {temp_celsius:.2f} °C")
 
-    except Exception as err:
-        print(f"An error occurred: {err}")
+    except requests.exceptions.RequestException as err:
+        print(f"Request error occurred: {err}")
 
 if __name__ == "__main__":
     get_weather()
