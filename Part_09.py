@@ -36,7 +36,6 @@ class Car:
             self.current_speed = 0
 
     def display_car_info(self):
-        # Print out all the properties of the car
         print(f"Registration Number: {self.registration_number}")
         print(f"Maximum Speed: {self.maximum_speed} km/h")
         print(f"Current Speed: {self.current_speed} km/h")
